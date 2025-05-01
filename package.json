@@ -1,10 +1,16 @@
 {
-  "name": "llm-mcp-node",
+  "name": "aidev1",
   "version": "1.0.0",
-  "main": "src/index.js",
-  "type": "module",
   "scripts": {
-    "start": "node src/index.js"
+    "test": "jest --coverage",
+    "test:watch": "jest --watch"
   },
-  "dependencies": {}
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "marked": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "@jest/globals": "^29.0.0"
+  }
 }
